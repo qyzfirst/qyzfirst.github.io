@@ -1,0 +1,208 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>数据结构基本概念 | qyz</title><meta name="author" content="qyz"><meta name="copyright" content="qyz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="算法的基本概念算法是对特定问题求解步骤的一种描述,它是指令的有限序列,其中的每条指令表示一个或多个操作。此外,一个算法还具有下列五个重要特性: 1)有穷性。一个算法必须总在执行有穷步之后结束,且每一步都可在有穷时间内完成。2)确定性。算法中每条指令必须有确切的含义,对于相同的输入只能得出相同的输出。3)可行性。算法中描述的操作都可以通过已经实现的基本运算执行有限次来实现。4)输入。一个算法有零个或">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据结构基本概念">
+<meta property="og:url" content="http://example.com/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E7%AE%97%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/index.html">
+<meta property="og:site_name" content="qyz">
+<meta property="og:description" content="算法的基本概念算法是对特定问题求解步骤的一种描述,它是指令的有限序列,其中的每条指令表示一个或多个操作。此外,一个算法还具有下列五个重要特性: 1)有穷性。一个算法必须总在执行有穷步之后结束,且每一步都可在有穷时间内完成。2)确定性。算法中每条指令必须有确切的含义,对于相同的输入只能得出相同的输出。3)可行性。算法中描述的操作都可以通过已经实现的基本运算执行有限次来实现。4)输入。一个算法有零个或">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg">
+<meta property="article:published_time" content="2025-04-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-05-14T03:19:02.880Z">
+<meta property="article:author" content="qyz">
+<meta property="article:tag" content="数据结构">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "数据结构基本概念",
+  "url": "http://example.com/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E7%AE%97%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/",
+  "image": "https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg",
+  "datePublished": "2025-04-25T16:00:00.000Z",
+  "dateModified": "2025-05-14T03:19:02.880Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "qyz",
+      "url": "http://example.com/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/xm.png"><link rel="canonical" href="http://example.com/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E7%AE%97%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '数据结构基本概念',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-image: url(https://wallpaperm.cmcm.com/85fff36cb2c02b45a8d26f4369dd36f5.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/25.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-solid fa-list"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 类型</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa-solid fa-layer-group"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa-solid fa-tag"></i><span> 标签</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://file.moyublog.com/free_wallpapers_files/kdxevforc0m.jpg" alt="Logo"><span class="site-name">qyz</span></a><a class="nav-page-title" href="/"><span class="site-name">数据结构基本概念</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-solid fa-list"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 类型</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa-solid fa-layer-group"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa-solid fa-tag"></i><span> 标签</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">数据结构基本概念</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-04-25T16:00:00.000Z" title="发表于 2025-04-26 00:00:00">2025-04-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-05-14T03:19:02.880Z" title="更新于 2025-05-14 11:19:02">2025-05-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="算法的基本概念"><a href="#算法的基本概念" class="headerlink" title="算法的基本概念"></a>算法的基本概念</h2><p><strong>算法</strong>是对特定问题求解步骤的一种描述,它是指令的有限序列,其中的每条指令表示一个或多个操作。此外,一个算法还具有下列<strong>五个重要特性</strong>:</p>
+<p>1)<strong>有穷性</strong>。一个算法必须总在执行有穷步之后结束,且每一步都可在有穷时间内完成。<br>2)<strong>确定性</strong>。算法中每条指令必须有确切的含义,对于相同的输入只能得出相同的输出。<br>3)<strong>可行性</strong>。算法中描述的操作都可以通过已经实现的基本运算执行有限次来实现。<br>4)<strong>输入</strong>。一个算法有零个或多个输入,这些输入取自于某个特定的对象的集合。<br>5)<strong>输出</strong>。一个算法有一个或多个输出,这些输出是与输入有着某种特定关系的量。</p>
+<p>通常,设计一个“好”的算法应考虑达到以下<strong>目标</strong>:</p>
+<ul>
+<li><strong>正确性</strong>：算法应能够正确地解决求解问题。</li>
+<li><strong>可读性</strong>：算法应具有良好的可读性，以帮助人们理解。</li>
+<li><strong>健壮性</strong>：算法能对输入的非法数据做出反应或处理，而不会产生莫名其妙的输出。</li>
+<li><strong>高效率与低存储量需求</strong>：效率是指算法执行的时间，存储量需求是指算法执行过程中所需要的最大存储空间，这两者都与问题的规模有关。</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">程序=算法+数据结构</span><br></pre></td></tr></table></figure>
+<h2 id="算法效率的度量"><a href="#算法效率的度量" class="headerlink" title="算法效率的度量"></a>算法效率的度量</h2><p>算法效率的度量是通过时间复杂度和空间复杂度来描述的。</p>
+<h3 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h3><p>一个语句的频度是<strong>指该语句</strong>在算法中<strong>被重复执行的次数</strong>。算法中所有语句的频度之和记为<strong>T(n)</strong><br>在计算机科学中，算法的时间复杂度是⼀个函数式T(n)，它定量描述了该<strong>算法的运行时间</strong>。<strong>时间复杂度是衡量程序的时间效率</strong><br>此通常将算法中基本运算的执行次数的数量级作为该算法的时间复杂度。于是,算法的时间复杂度记为：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">T(n) = O(f(n))</span><br></pre></td></tr></table></figure>
+<h4 id="时间复杂度分三种情况"><a href="#时间复杂度分三种情况" class="headerlink" title="时间复杂度分三种情况"></a>时间复杂度分三种情况</h4><p><strong>最坏时间</strong>复杂度是指在最坏情况下,算法的时间复杂度。<br><strong>平均时间</strong>复杂度是指所有可能输入实例在等概率出现的情况下,算法的期望运行时间。<br><strong>最好时间</strong>复杂度是指在最好情况下,算法的时间复杂度。<br>一般总是<strong>考虑在最坏情况</strong>下的时间复杂度,以保证算法的运行时间不会比它更长。</p>
+<p>在分析一个程序的时间复杂性时,有以下两条规则:</p>
+<ul>
+<li>加法规则: T(n) &#x3D; T(n) + T2(n) &#x3D; O(f(n)) + O(g(n)) &#x3D; O(max(f(n), g(1)))</li>
+<li>乘法规则: T(n) &#x3D; T(n) × T(n) &#x3D; O(f(n)) × O(g(n)) &#x3D; O(f(n) x g(n))</li>
+</ul>
+<p>例如,设a{}、b{}、c{}三个语句块的时间复杂度分别为O(1)、O(n)、O(n),则</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1.  a&#123;</span><br><span class="line">        b&#123;&#125;</span><br><span class="line">        c&#123;&#125;</span><br><span class="line">    &#125; //时间复杂度为O(n),满足加法规则</span><br><span class="line">2。 a&#123;</span><br><span class="line">        b&#123;</span><br><span class="line">            c&#123;)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; 时间复杂度为O(n),满足乘法规则</span><br></pre></td></tr></table></figure>
+<p>常见的渐近时间复杂度为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0(1)&lt;O(log_2n) &lt;O(n) &lt; O(nlog_2n) &lt; O(n²) &lt; O(n³) &lt;O(2^n) &lt; O(n!) &lt; O(n^n)</span><br></pre></td></tr></table></figure>
+<h3 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h3><p><strong>空间复杂度</strong>是对一个算法在运行过程中临时占用存储空间大小的量度，记做：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">S(n) =O(g(n))</span><br></pre></td></tr></table></figure>
+<p>首先，<strong>空间复杂度不是程序本身（可执行程序文件）的大小，而是程序运行时占用内存空间的大小</strong></p>
+<p>空间复杂度的计算与时间复杂度类似，也使用大O渐进表示法。</p>
+<p>空间复杂度的计算相对来说比较简单，下面直接上例子</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">bubble</span><span class="params">(<span class="type">int</span>* arr, <span class="type">int</span> sz)</span> &#123;</span><br><span class="line">	<span class="type">int</span> i, j, tmp;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; sz - <span class="number">1</span>; i++) &#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span>; j &lt; sz - <span class="number">1</span> - i; j++) &#123;</span><br><span class="line">			<span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>]) &#123;</span><br><span class="line">				tmp = arr[j];</span><br><span class="line">				arr[j] = arr[j + <span class="number">1</span>];</span><br><span class="line">				arr[j + <span class="number">1</span>] = tmp;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>那么这个算法的空间复杂度为O(1)因为只开辟常数个额外空间，它所开辟的空间并不会随arr大小的变化而变化。</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></div><div class="post-share"><div class="social-share" data-image="https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" title="数据结构基本概念"><img class="cover" src="https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">数据结构基本概念</div></div><div class="info-2"><div class="info-item-1">数据结构基本概念数据定义：数据是信息的载体，是描述客观事物属性的数、字符及所有能输入到计算机中并被计算机程序识别和处理的符号集合。数据是计算机程序加工的原料 数据元素、数据项数据元素是数据的基本单位，通常作为一个整体进行考虑和处理。一个数据元素可以由若干数据项组成，数据项是构成数据元素的不可分割的最小单位。 数据对象、数据结构数据结构是相互之间存在一种或多种特定关系的数据元素的集合。数据对象是具有相同性质的数据元素的集合，是数据的一个子集。 数据类型、抽象数据类型（ADT）数据类型是一个值的集合和定义在此集合上的一组操作的总称。  1)原子类型。其值不可再分的数据类型。 2)结构类型。其值可以再分解为若干成分(分量)的数据类型。 3)抽象数据类型...</div></div></div></a><a class="pagination-related" href="/2025/10/10/data/hello-world/" title="shuju"><img class="cover" src="https://n.sinaimg.cn/sinakd10106/400/w2000h1600/20200309/364f-iqrhckm3707202.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">shuju</div></div><div class="info-2"><div class="info-item-1">  Create a new post1$ hexo new &quot;My New Post&quot;  More info: Writing Run server1$ hexo server  More info: Server Generate static files1$ hexo generate  More info: Generating Deploy to remote sites1$ hexo deploy  More info: Deployment </div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" title="数据结构基本概念"><img class="cover" src="https://cdn.svipaigc.com/bizi/2024/10/839f91c.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-26</div><div class="info-item-2">数据结构基本概念</div></div><div class="info-2"><div class="info-item-1">数据结构基本概念数据定义：数据是信息的载体，是描述客观事物属性的数、字符及所有能输入到计算机中并被计算机程序识别和处理的符号集合。数据是计算机程序加工的原料 数据元素、数据项数据元素是数据的基本单位，通常作为一个整体进行考虑和处理。一个数据元素可以由若干数据项组成，数据项是构成数据元素的不可分割的最小单位。 数据对象、数据结构数据结构是相互之间存在一种或多种特定关系的数据元素的集合。数据对象是具有相同性质的数据元素的集合，是数据的一个子集。 数据类型、抽象数据类型（ADT）数据类型是一个值的集合和定义在此集合上的一组操作的总称。  1)原子类型。其值不可再分的数据类型。 2)结构类型。其值可以再分解为若干成分(分量)的数据类型。 3)抽象数据类型...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/25.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">qyz</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" href="qyzfirst.github.io"><i class="fa-solid fa-user"></i><span>考研笔记</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来的qyz的博客~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">1.</span> <span class="toc-text">算法的基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E6%95%88%E7%8E%87%E7%9A%84%E5%BA%A6%E9%87%8F"><span class="toc-number">2.</span> <span class="toc-text">算法效率的度量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="toc-number">2.1.</span> <span class="toc-text">时间复杂度</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E4%B8%89%E7%A7%8D%E6%83%85%E5%86%B5"><span class="toc-number">2.1.1.</span> <span class="toc-text">时间复杂度分三种情况</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="toc-number">2.2.</span> <span class="toc-text">空间复杂度</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/10/10/data/hello-world/" title="shuju"><img src="https://n.sinaimg.cn/sinakd10106/400/w2000h1600/20200309/364f-iqrhckm3707202.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="shuju"/></a><div class="content"><a class="title" href="/2025/10/10/data/hello-world/" title="shuju">shuju</a><time datetime="2025-10-09T16:00:00.000Z" title="发表于 2025-10-10 00:00:00">2025-10-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/26/%E6%94%BF%E6%B2%BB/01/" title="shuju7"><img src="https://n.sinaimg.cn/sinakd10106/400/w2000h1600/20200309/364f-iqrhckm3707202.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="shuju7"/></a><div class="content"><a class="title" href="/2025/04/26/%E6%94%BF%E6%B2%BB/01/" title="shuju7">shuju7</a><time datetime="2025-04-25T16:00:00.000Z" title="发表于 2025-04-26 00:00:00">2025-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/01/" title="shuju1"><img src="https://pic1.zhimg.com/v2-81869b6169a218cec76f56f77eb64911_r.jpg?source=1940ef5c" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="shuju1"/></a><div class="content"><a class="title" href="/2025/04/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/01/" title="shuju1">shuju1</a><time datetime="2025-04-25T16:00:00.000Z" title="发表于 2025-04-26 00:00:00">2025-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/01/" title="shuju4"><img src="https://pic2.zhimg.com/v2-d3e8926ad3a480f5d26b43ddd56e4f70_r.jpg?source=1940ef5c" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="shuju4"/></a><div class="content"><a class="title" href="/2025/04/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/01/" title="shuju4">shuju4</a><time datetime="2025-04-25T16:00:00.000Z" title="发表于 2025-04-26 00:00:00">2025-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/01/" title="shuju3"><img src="https://pic4.zhimg.com/v2-b730c73ebd78bd5f22293aab0d343f4b_r.jpg?source=1940ef5c" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="shuju3"/></a><div class="content"><a class="title" href="/2025/04/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/01/" title="shuju3">shuju3</a><time datetime="2025-04-25T16:00:00.000Z" title="发表于 2025-04-26 00:00:00">2025-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/26/%E8%8B%B1%E8%AF%AD/01/" title="shuju6"><img src="https://imgxz.bizhi3.com/20231113/231113105454922.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="shuju6"/></a><div class="content"><a class="title" href="/2025/04/26/%E8%8B%B1%E8%AF%AD/01/" title="shuju6">shuju6</a><time datetime="2025-04-25T16:00:00.000Z" title="发表于 2025-04-26 00:00:00">2025-04-26</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2025 By qyz</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '1s');
+    arr[i].setAttribute('data-wow-delay', '0s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>

@@ -8,7 +8,7 @@
       <link href="/2025/10/10/data/hello-world/"/>
       <url>/2025/10/10/data/hello-world/</url>
       
-        <content type="html"><![CDATA[<!-- ## Quick Start --><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<!-- ## Quick Start --><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       <categories>
@@ -21,56 +21,6 @@
         <tags>
             
             <tag> 123 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>shuju</title>
-      <link href="/2025/04/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/01/"/>
-      <url>/2025/04/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/01/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 操作系统 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 操作系统 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>shuju5</title>
-      <link href="/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/01/"/>
-      <url>/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/01/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 数据结构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 数据结构 </tag>
             
         </tags>
       
@@ -104,23 +54,23 @@
     
     
     <entry>
-      <title>shuju6</title>
-      <link href="/2025/04/26/%E8%8B%B1%E8%AF%AD/01/"/>
-      <url>/2025/04/26/%E8%8B%B1%E8%AF%AD/01/</url>
+      <title>shuju1</title>
+      <link href="/2025/04/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/01/"/>
+      <url>/2025/04/26/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/01/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> 英语 </category>
+          <category> 操作系统 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 英语 </tag>
+            <tag> 操作系统 </tag>
             
         </tags>
       
@@ -179,11 +129,36 @@
     
     
     <entry>
+      <title>shuju6</title>
+      <link href="/2025/04/26/%E8%8B%B1%E8%AF%AD/01/"/>
+      <url>/2025/04/26/%E8%8B%B1%E8%AF%AD/01/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 英语 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>shuju2</title>
       <link href="/2025/04/26/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/01/"/>
       <url>/2025/04/26/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/01/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="qyz"><a href="#qyz" class="headerlink" title="qyz"></a>qyz</h1><p>sadasdasdasdasdhagdasd<br>asd</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">asd</span><br></pre></td></tr></table></figure><p>asd<br>eeee</p>]]></content>
       
       
       <categories>
@@ -196,6 +171,56 @@
         <tags>
             
             <tag> 高等数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据结构基本概念</title>
+      <link href="/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
+      <url>/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h3><p>定义：数据是信息的载体，是描述客观事物属性的数、字符及所有<strong>能输入到计算机中并被计算机程序识别</strong>和处理的符号集合。数据是计算机程序加工的原料</p><h3 id="数据元素、数据项"><a href="#数据元素、数据项" class="headerlink" title="数据元素、数据项"></a>数据元素、数据项</h3><p><strong>数据元素</strong>是数据的基本单位，通常作为一个整体进行考虑和处理。<br>一个数据元素可以由若干<strong>数据项</strong>组成，数据项是构成数据元素的不可分割的最小单位。</p><h3 id="数据对象、数据结构"><a href="#数据对象、数据结构" class="headerlink" title="数据对象、数据结构"></a>数据对象、数据结构</h3><p><strong>数据结构</strong>是相互之间存在一种或多种特定<strong>关系</strong>的数据元素的集合。<br><strong>数据对象</strong>是具有<strong>相同性质</strong>的数据元素的集合，是数据的一个子集。</p><h3 id="数据类型、抽象数据类型（ADT）"><a href="#数据类型、抽象数据类型（ADT）" class="headerlink" title="数据类型、抽象数据类型（ADT）"></a>数据类型、抽象数据类型（ADT）</h3><p><strong>数据类型</strong>是一个值的集合和定义在此集合上的一组操作的总称。</p><ul><li>1)<strong>原子类型</strong>。其值不可再分的数据类型。</li><li>2)<strong>结构类型</strong>。其值可以再分解为若干成分(分量)的数据类型。</li><li>3)<strong>抽象数据类型 ADT</strong>是抽象数据组织及与之相关操作。</li></ul><h3 id="数据结构-1"><a href="#数据结构-1" class="headerlink" title="数据结构"></a>数据结构</h3><p><strong>数据结构</strong>包括三方面的内容:<strong>逻辑结构、存储结构和数据的运算</strong>。<br>数据的<strong>逻辑结构和存储结构是密不可分的两个方面</strong>,一个算法的设计取决于所选定的逻辑结构而算法的实现依赖于所采用的存储结构。</p><h2 id="三要素"><a href="#三要素" class="headerlink" title="三要素"></a>三要素</h2><h3 id="逻辑结构"><a href="#逻辑结构" class="headerlink" title="逻辑结构"></a>逻辑结构</h3><p><strong>线性结构</strong>：线性表、栈、队列<br><strong>非线性结构</strong>：树、图、集合</p><h4 id="线性结构（线性表、栈、队列）"><a href="#线性结构（线性表、栈、队列）" class="headerlink" title="线性结构（线性表、栈、队列）"></a>线性结构（线性表、栈、队列）</h4><p>结构中的数据元素之间只存在<strong>一对一</strong>的关系。</p><h4 id="树形结构"><a href="#树形结构" class="headerlink" title="树形结构"></a>树形结构</h4><p>结构中的数据元素之间存在<strong>一对多</strong>的关系。</p><h4 id="图状结构（网状结构）"><a href="#图状结构（网状结构）" class="headerlink" title="图状结构（网状结构）"></a>图状结构（网状结构）</h4><p>构中的数据元素之间存在<strong>多对多</strong>的关系。</p><h4 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h4><p>各个元素同属于一个集合，别无其它关系。</p><h3 id="物理结构（存储结构）"><a href="#物理结构（存储结构）" class="headerlink" title="物理结构（存储结构）"></a>物理结构（存储结构）</h3><h4 id="顺序存储"><a href="#顺序存储" class="headerlink" title="顺序存储"></a>顺序存储</h4><p>把<strong>逻辑上相邻的元素存储在物理位置上也相邻的存储单元</strong>中,元素之间的关系由存储单元的邻接关系来体现。<br><strong>优点</strong>是可以实现随机存取,每个元素占用最少的存储空间;<br><strong>缺点</strong>是只能使用相邻的一整块存储单元,因此可能产生较多的外部碎片。</p><h4 id="链式存储"><a href="#链式存储" class="headerlink" title="链式存储"></a>链式存储</h4><p><strong>不要求逻辑上相邻的元素在物理位置上也相邻</strong>,借助指示元素存储地址的<strong>指针</strong>来表示元素之间的逻辑关系。<br>其<strong>优点</strong>是不会出现碎片现象,能充分利用所有存储单元;<br><strong>缺点</strong>是每个元素因存储指针而占用额外的存储空间,且只能实现顺序存取。</p><h4 id="索引存储"><a href="#索引存储" class="headerlink" title="索引存储"></a>索引存储</h4><p>在存储元素信息的同时,还建立附加的索引表。索引表中的每项称为索引项,索引项的一般形式是(关键字,地址)<br><strong>优点</strong>是检索速度快;<br><strong>缺点</strong>是附加的索引表额外占用存储空间。另外,增加和删除数据时也要修改索引表,因而会花费较多的时间。</p><h4 id="散列存储"><a href="#散列存储" class="headerlink" title="散列存储"></a>散列存储</h4><p>根据元素的关键字直接计算出该元素的存储地址,<strong>又称哈希(Hash)存储。</strong><br><strong>优点</strong>是检索、增加和删除结点的操作都很快;<br><strong>缺点</strong>是若散列函数不好,则可能出现元素存储单元的冲突,而解决冲突会增加时间和空间开销。</p><p><strong>总结：</strong><br>1.若采用<strong>顺序存储</strong>，则各个数据在物理上必须是<strong>连续的</strong>；若采用<strong>非顺序存储</strong>，则各个数据元素在物理上可以<strong>是离散的</strong><br>2.数据的<strong>存储结构</strong>会<strong>影响存储空间的分配的方便程度</strong><br>3.数据的<strong>存储结构</strong>会<strong>影响对数据运算的速度</strong></p><h3 id="数据的运算"><a href="#数据的运算" class="headerlink" title="数据的运算"></a>数据的运算</h3><p>施加在数据上的运算包括运算的定义和实现。<strong>运算的定义是针对逻辑结构的</strong>,指出运算的功运算的实现是针对存储结构的,指出运算的具体操作步骤。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据结构基本概念</title>
+      <link href="/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E7%AE%97%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
+      <url>/2025/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%AA%E8%AE%BA/%E7%AE%97%E6%B3%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="算法的基本概念"><a href="#算法的基本概念" class="headerlink" title="算法的基本概念"></a>算法的基本概念</h2><p><strong>算法</strong>是对特定问题求解步骤的一种描述,它是指令的有限序列,其中的每条指令表示一个或多个操作。此外,一个算法还具有下列<strong>五个重要特性</strong>:</p><p>1)<strong>有穷性</strong>。一个算法必须总在执行有穷步之后结束,且每一步都可在有穷时间内完成。<br>2)<strong>确定性</strong>。算法中每条指令必须有确切的含义,对于相同的输入只能得出相同的输出。<br>3)<strong>可行性</strong>。算法中描述的操作都可以通过已经实现的基本运算执行有限次来实现。<br>4)<strong>输入</strong>。一个算法有零个或多个输入,这些输入取自于某个特定的对象的集合。<br>5)<strong>输出</strong>。一个算法有一个或多个输出,这些输出是与输入有着某种特定关系的量。</p><p>通常,设计一个“好”的算法应考虑达到以下<strong>目标</strong>:</p><ul><li><strong>正确性</strong>：算法应能够正确地解决求解问题。</li><li><strong>可读性</strong>：算法应具有良好的可读性，以帮助人们理解。</li><li><strong>健壮性</strong>：算法能对输入的非法数据做出反应或处理，而不会产生莫名其妙的输出。</li><li><strong>高效率与低存储量需求</strong>：效率是指算法执行的时间，存储量需求是指算法执行过程中所需要的最大存储空间，这两者都与问题的规模有关。</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">程序=算法+数据结构</span><br></pre></td></tr></table></figure><h2 id="算法效率的度量"><a href="#算法效率的度量" class="headerlink" title="算法效率的度量"></a>算法效率的度量</h2><p>算法效率的度量是通过时间复杂度和空间复杂度来描述的。</p><h3 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h3><p>一个语句的频度是<strong>指该语句</strong>在算法中<strong>被重复执行的次数</strong>。算法中所有语句的频度之和记为<strong>T(n)</strong><br>在计算机科学中，算法的时间复杂度是⼀个函数式T(n)，它定量描述了该<strong>算法的运行时间</strong>。<strong>时间复杂度是衡量程序的时间效率</strong><br>此通常将算法中基本运算的执行次数的数量级作为该算法的时间复杂度。于是,算法的时间复杂度记为：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">T(n) = O(f(n))</span><br></pre></td></tr></table></figure><h4 id="时间复杂度分三种情况"><a href="#时间复杂度分三种情况" class="headerlink" title="时间复杂度分三种情况"></a>时间复杂度分三种情况</h4><p><strong>最坏时间</strong>复杂度是指在最坏情况下,算法的时间复杂度。<br><strong>平均时间</strong>复杂度是指所有可能输入实例在等概率出现的情况下,算法的期望运行时间。<br><strong>最好时间</strong>复杂度是指在最好情况下,算法的时间复杂度。<br>一般总是<strong>考虑在最坏情况</strong>下的时间复杂度,以保证算法的运行时间不会比它更长。</p><p>在分析一个程序的时间复杂性时,有以下两条规则:</p><ul><li>加法规则: T(n) &#x3D; T(n) + T2(n) &#x3D; O(f(n)) + O(g(n)) &#x3D; O(max(f(n), g(1)))</li><li>乘法规则: T(n) &#x3D; T(n) × T(n) &#x3D; O(f(n)) × O(g(n)) &#x3D; O(f(n) x g(n))</li></ul><p>例如,设a{}、b{}、c{}三个语句块的时间复杂度分别为O(1)、O(n)、O(n),则</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1.  a&#123;</span><br><span class="line">        b&#123;&#125;</span><br><span class="line">        c&#123;&#125;</span><br><span class="line">    &#125; //时间复杂度为O(n),满足加法规则</span><br><span class="line">2。 a&#123;</span><br><span class="line">        b&#123;</span><br><span class="line">            c&#123;)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; 时间复杂度为O(n),满足乘法规则</span><br></pre></td></tr></table></figure><p>常见的渐近时间复杂度为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0(1)&lt;O(log_2n) &lt;O(n) &lt; O(nlog_2n) &lt; O(n²) &lt; O(n³) &lt;O(2^n) &lt; O(n!) &lt; O(n^n)</span><br></pre></td></tr></table></figure><h3 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h3><p><strong>空间复杂度</strong>是对一个算法在运行过程中临时占用存储空间大小的量度，记做：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">S(n) =O(g(n))</span><br></pre></td></tr></table></figure><p>首先，<strong>空间复杂度不是程序本身（可执行程序文件）的大小，而是程序运行时占用内存空间的大小</strong></p><p>空间复杂度的计算与时间复杂度类似，也使用大O渐进表示法。</p><p>空间复杂度的计算相对来说比较简单，下面直接上例子</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">bubble</span><span class="params">(<span class="type">int</span>* arr, <span class="type">int</span> sz)</span> &#123;</span><br><span class="line"><span class="type">int</span> i, j, tmp;</span><br><span class="line"><span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; sz - <span class="number">1</span>; i++) &#123;</span><br><span class="line"><span class="keyword">for</span> (j = <span class="number">0</span>; j &lt; sz - <span class="number">1</span> - i; j++) &#123;</span><br><span class="line"><span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>]) &#123;</span><br><span class="line">tmp = arr[j];</span><br><span class="line">arr[j] = arr[j + <span class="number">1</span>];</span><br><span class="line">arr[j + <span class="number">1</span>] = tmp;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>那么这个算法的空间复杂度为O(1)因为只开辟常数个额外空间，它所开辟的空间并不会随arr大小的变化而变化。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构 </tag>
             
         </tags>
       
